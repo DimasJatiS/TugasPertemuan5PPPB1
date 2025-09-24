@@ -2,9 +2,30 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#3499F9</color>
-    <color name="dark_grey">#d3d4d3</color>
-    <color name="darker_grey">#949494</color>
+
+    <color name="soft_blue_primary">#5D7CA6</color>
+    <color name="soft_blue_dark">#3F577A</color>
+    <color name="soft_blue_light">#7E9ABF</color>
+
+
+    <color name="accent_blue">#40B8F0</color>
+    <color name="accent_blue_dark">#0D8CDA</color>
+
+    <color name="dark_grey">#C9C9C9</color>
+    <color name="darker_grey">#616161</color>
+    <color name="blue">#4285F4</color>
     <color name="transparent">#00000000</color>
 
+    <color name="background_light">#F5F5F5</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#CCCCCC</color>
+
+    <color name="hint_text_dark_theme">#AAAAAA</color>
+    <color name="edittext_bg_light">#C9C9C9</color>
 </resources>
