@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TugasMenggila</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Profile</string>
+    <string name="tab_text_3">Setting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="toc">By checking the box you agree to out Terms and Conditions.</string>
+    <string name="acc">Already have an Account?</string>
+    <string name="email">Your email has been activated</string>
+    <string name="phone">Your phone has been registered</string>
+    <string name="username">Welcome Username</string>
+
+</resources>
