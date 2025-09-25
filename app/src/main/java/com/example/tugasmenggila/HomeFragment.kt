@@ -48,14 +48,15 @@ class HomeFragment : Fragment() {
 
     // Metode untuk tombol yang dapat diklik pada setiap item menu
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val mainActivity = activity as? MainActivity
         return when (item.itemId) {
             R.id.action_logout -> {
-                mainActivity?.handleLogout() // Fungsi Logout dipanggil
+                val dialogLogout = DialogLogout()
+                dialogLogout.show(parentFragmentManager, "DialogLogout")
                 true
             }
             R.id.action_exit -> {
-                mainActivity?.handleExitApp() // Fungsi Exit dipanggil
+                val dialogExit = DialogExit()
+                dialogExit.show(parentFragmentManager, "DialogExit")
                 true
             }
             else -> super.onOptionsItemSelected(item)

@@ -49,9 +49,6 @@ class LoginFragment : Fragment() {
 
             // navigasi ke halaman home jika valid
             if (isValid) {
-                // Simpan status login
-//                val session = SessionManager(requireContext())
-//                session.setLoggedIn(true)
 
                 // Pindah halaman
                 (activity as? MainActivity)?.navigateToHome(username)

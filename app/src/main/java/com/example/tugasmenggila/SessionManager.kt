@@ -21,4 +21,31 @@ class SessionManager(context: Context) {
     fun logout() {
         prefs.edit().clear().apply()
     }
+
+
+
+    //login
+    // Simpan status login
+//                val session = SessionManager(requireContext())
+//                session.setLoggedIn(true)
+
+    //register
+    // Simpan status login
+//                val session = SessionManager(requireContext())
+//                session.setLoggedIn(true)
+
+
+    //main
+    //    private lateinit var sessionManager: SessionManager
+
+    //        sessionManager = SessionManager(this)
+
+    // Fungsi Action
+
+//    fun handleLoginSuccess(username: String) {
+//        sessionManager.setLoggedIn(true)
+//        navigateToHome(username)
+//    }
 }
+
+//sessionManager.logout()

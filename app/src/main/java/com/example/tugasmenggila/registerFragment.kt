@@ -47,9 +47,6 @@ class RegisterFragment : Fragment() {
             }
 
             if (isValid) {
-                // Simpan status login
-//                val session = SessionManager(requireContext())
-//                session.setLoggedIn(true)
 
                 // Pindah halaman
                 (activity as? MainActivity)?.navigateToHome(username)
